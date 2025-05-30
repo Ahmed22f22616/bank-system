@@ -1,5 +1,6 @@
 - delete one option
 - change variable name
+- add one more case
 
 int i;
 String op;
@@ -8,6 +9,8 @@ for (i = 1; i <= 3; i++) {
     switch (op) {
         case "1":
             System.out.println("Balance checked.");
+       case "2":
+            System.out.println("Balance done.");
         
         default:
             System.out.println("Invalid option.");
