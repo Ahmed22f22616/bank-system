@@ -11,6 +11,8 @@ for (i = 1; i <= 3; i++) {
             System.out.println("Balance checked.");
        case "2":
             System.out.println("Balance done.");
+       case "3":
+            System.out.println("transfer done.");
         
         default:
             System.out.println("Invalid option.");
