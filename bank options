@@ -1,10 +1,11 @@
 - delete one option
+- change variable name
 
 int i;
-String option;
+String op;
 for (i = 1; i <= 3; i++) {
-    option = String.valueOf(i);
-    switch (option) {
+    op = String.valueOf(i);
+    switch (op) {
         case "1":
             System.out.println("Balance checked.");
         
